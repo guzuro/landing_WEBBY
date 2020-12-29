@@ -116,10 +116,11 @@ html {
   color: #fff;
 }
 
-.home__activity {
+.activity {
   font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
   font-size: 21px;
+  color: #fff;
 }
 
 .home__body {
@@ -272,19 +273,19 @@ html {
 }
 
 .statistics__list {
-  margin: 20px 0px 0px -10px;
+  margin: 20px -10px;
   background-color: #f5f5f5;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  padding: 15px 0px;
 }
 
 .statistics__item {}
 
 .item {
-  margin: 0px 0px 0px 10px;
+  margin: 0px 10px;
   text-align: center;
-  padding: 15px 0px;
 }
 
 .item__count {
@@ -295,3 +296,41 @@ html {
 .item__about {
   font-size: 17px;
 }
+
+/*video section*/
+.video {
+  background: url("../img/bg_3.jpg") center no-repeat;
+  background-size: cover;
+  padding: 120px 0 100px 0px;
+}
+
+.video__inner {
+  text-align: center;
+}
+
+.video__body {
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+.video__title {
+  color: #fff;
+
+}
+
+.border-title {}
+
+.video__text {
+  margin: 30px 0px 0px 0px;
+}
+
+.video__frame {
+  margin: 80px 0px 0px 0px;
+  max-width: 100%;
+}
+
+.video__activity {
+  margin: 115px 0px 0px 0px;
+}
+
+.text {}
