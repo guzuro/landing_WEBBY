@@ -160,15 +160,11 @@ html {
   display: flex;
 }
 
-.gallery__left {}
-
 .gallery__body {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
-.gallery__title {}
 
 .title {
   font-size: 30px;
@@ -217,7 +213,28 @@ html {
 
 }
 
-.gallery_long {}
+@media screen and (max-width:948px) {
+  .gallery_long {
+    display: none;
+  }
+
+  .gallery {
+    padding-bottom: 70px;
+  }
+
+  .gallery__images {
+    justify-content: center;
+  }
+
+  .gallery__item{
+    margin: 2px 0px 0px 0px;
+  }
+
+  .gallery__row {
+    justify-content: center;
+  }
+}
+
 
 /*lorem-block*/
 .lorem-block {
@@ -243,8 +260,6 @@ html {
   margin: 0 auto;
 }
 
-.border-title {}
-
 .lorem-block__text {
   color: white;
   margin: 30px 0px 0px 0px;
@@ -255,8 +270,6 @@ html {
   padding: 70px 0px 120px 0px;
 }
 
-.statistics__inner {}
-
 .statistics__title {
   text-align: center;
 }
@@ -264,8 +277,6 @@ html {
 .statistics__body {
   margin: 80px 0px 0px 0px;
 }
-
-.statistics__info-title {}
 
 .statistics__text {
   color: #000;
@@ -280,8 +291,6 @@ html {
   flex-wrap: wrap;
   padding: 15px 0px;
 }
-
-.statistics__item {}
 
 .item {
   margin: 0px 10px;
@@ -318,8 +327,6 @@ html {
 
 }
 
-.border-title {}
-
 .video__text {
   margin: 30px 0px 0px 0px;
 }
@@ -332,5 +339,3 @@ html {
 .video__activity {
   margin: 115px 0px 0px 0px;
 }
-
-.text {}
